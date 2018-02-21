@@ -9,3 +9,5 @@ def spamHam(message):
     return json.dumps({'result': yieldResult(message).tolist()})
 
 
+if __name__ == '__main__':
+    app.run(port=5000)
